@@ -1,0 +1,60 @@
+/* Add styles here */
+body{
+    background-image: url("images/voly.jpg");
+    background-repeat: no-repeat;
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.navbar{
+    padding:0px;
+    background-color: white;
+    opacity: 50%;
+}
+.navbarmenu{
+    text-align: right;
+    padding: 20px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    pading: 0pc 5px;
+}
+.navbarmenulist > li > a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.navbarmenulist > li:hover{
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+}
+.navbarjudul{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 30px;
+    left: 600px;
+    text-shadow: 2px 2px 8px black;
+    font-size: 20px;
+}
+#txhello{
+    font-size: 50px;
+    position: relative;
+    top: 200px;
+    left: 20%;
+}
+#btn1{
+    position: relative;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 18px;
+    top: 200px;
+    left: 30%;
+}
+#btn1:hover{
+    color: aqua;
+    background-color: white;
+}
